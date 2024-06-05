@@ -1,0 +1,180 @@
+:root
+{
+  --primary-color--:#cdc1b5;
+  --secondary-color--:#bbada0;
+  --number-2--:#eee4da;
+  --color-2--:#727371;
+  --number-4--:#ece0ca;
+  --color-4--:#727371;
+  --number-8--:#f4b17a;
+  --color-8--:white;
+  --number-16--:#f59575;
+  --color-16--:white;
+  --number-32--:#f57c5f;
+  --color-32--:white;
+  --number-64--:#f65d3b;
+  --color-64--:white;
+  --number-128--:#edce71;
+  --color-128--:white;
+  --number-256--:#edcc61;
+  --color-256--:white;
+  --number-512--:#edc651;
+  --color-512--:white;
+  --number-1024--:#eec744;
+  --color-1024--:white;
+  --number-2048--:#ecc230;
+  --color-2048--:white;
+  --number-4096--:#fe3d3d;
+  --color-4096--:white;
+
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+hr
+{
+  width: 500px;
+}
+#board
+{
+  width: 400px;
+  height: 400px;
+  border: 6px solid var(--secondary-color--);
+  background-color: var(--primary-color--);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tile
+{
+  width: 90px;
+  height: 90px;
+  border: 5px solid var(--secondary-color--);
+  font-size: 40px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.x2
+{
+  background-color: var(--number-2--);
+  color:var(--color-2--);
+}
+.x4
+{
+  background-color: var(--number-4--);
+  color: var(--color-4--);
+}
+.x8
+{
+  background-color: var(--number-8--);
+  color: var(--color-8--);
+}
+.x16
+{
+  background-color: var(--number-16--);
+  color: var(--color-16--);
+}
+.x32
+{
+  background-color: var(--number-32--);
+  color: var(--color-32--);
+}
+.x64
+{
+  background-color: var(--number-64--);
+  color: var(--color-64--);
+}
+.x128
+{
+  background-color: var(--number-128--);
+  color: var(--color-128--);
+}
+.x256
+{
+  background-color: var(--number-256--);
+  color: var(--color-256--);
+}
+.x512
+{
+  background-color: var(--number-512--);
+  color: var(--color-512--);
+}
+.x1024
+{
+  background-color: var(--number-1024--);
+  color: var(--color-1024--);
+}
+.x2048
+{
+  background-color: var(--number-2048--);
+  color: var(--color-2048--);
+}
+.x4096
+{
+  background-color: var(--number-4096--);
+  color: var(--color-4096--);
+}
+.x8192
+{
+  background-color: #ff2020;
+  color: white;
+}
+
+/* @media only screen and (max-width:240px)
+{
+#board
+{
+  width: 400px;
+  height: 400px;
+  border: 6px solid var(--secondary-color--);
+  background-color: var(--primary-color--);
+  margin: 0 auto;
+  display: flex;
+   flex-wrap: wrap;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 50%;
+
+}
+hr
+{
+  width: 200px;
+}
+
+} */
+@media screen and (max-width: 550px) {
+  html, body {
+      font-size: 15px;
+
+  }
+  .tile
+{
+  width: 50%;
+  height: 50%;
+  border: 5px solid var(--secondary-color--);
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#board
+{
+  width: 100px;
+  height: 100px;
+  border: 6px solid var(--secondary-color--);
+  background-color: var(--primary-color--);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+}
